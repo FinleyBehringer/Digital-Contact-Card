@@ -3,12 +3,12 @@ VERSION:3.0
 PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
 N:Behringer;Finley;;
 FN: Finley  Behringer 
-ORG:Douglas Elliman Real Estate - Sagaponack;
+ORG:Douglas Elliman Real Estate - Bridgehampton;
 TITLE:Lic R E Salesperson
 EMAIL;type=INTERNET;type=WORK;type=pref:finley.behringer@elliman.com
-TEL;type=WORK;type=VOICE:631.487.2335
-item1.ADR;type=WORK;type=pref:;;2987 Montauk Hwy;;;Sagaponack;NY 11962
+TEL;type=MOBILE;type=VOICE:631.487.2335
+item1.ADR;type=WORK;type=pref:;;2488 Main Street;;;Bridgehampton;NY 11932
 item1.X-ABADR:sg
-item2.URL;type=pref:https://www.elliman.com/real-estate-agent/sale/finley-behringer/23924
+item2.URL;type=pref:https://www.elliman.com/newyork/associate/612-a-612-187984/finley-behringer
 item2.X-ABLabel:_$!<HomePage>!$_
 END:VCARD
