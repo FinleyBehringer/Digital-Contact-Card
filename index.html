@@ -163,34 +163,36 @@
     </div>
   </section>
 
-  <!-- Modal -->
-  <div id="contactModal" class="modal">
-    <div class="modal-content">
-      <span id="closeModal" class="close">&times;</span>
-      <form action="https://formsubmit.co/finleybehringer@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="CONTACTCARD INQUIRY">
-        <input type="text" name="name" placeholder="Name" required>
-        <input type="tel" name="Phone No." placeholder="Phone no." required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send</button>
-      </form>
+<section class="bg-color-white bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col is-5">
+        <!-- Add 'Contact Me' Button -->
+        <div class="button">
+          <button id="contactBtn" class="button">Contact Me</button>
+        </div>
+      </div>
+      <div class="col"></div>
     </div>
   </div>
+</section>
 
-  <script>
-    const modal = document.getElementById('contactModal');
-    const openModal = document.getElementById('open-modal');
-    const closeModal = document.getElementById('closeModal');
+<!-- Modal for Contact Form -->
+<div id="contactModal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal" class="close">&times;</span>
+    <form action="https://formsubmit.co/finleybehringer@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="CONTACTCARD INQUIRY">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Your Phone Number" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="button">Send</button>
+    </form>
+  </div>
+</div>
 
-    openModal.onclick = () => modal.style.display = 'block';
-    closeModal.onclick = () => modal.style.display = 'none';
-    window.onclick = event => {
-      if (event.target === modal) {
-        modal.style.display = 'none';
-      }
-    };
-  </script>
 
 </body>
 
