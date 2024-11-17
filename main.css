@@ -235,6 +235,7 @@ input, textarea, button {
   padding-right: .5rem;
 }
 button {
+  display: inline-block;
   cursor: pointer;
   background-color: #007BFF;
   color: white;
