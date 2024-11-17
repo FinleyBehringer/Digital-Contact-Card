@@ -240,3 +240,12 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+.checkbox-group label {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
