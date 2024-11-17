@@ -248,7 +248,7 @@ button:hover {
 .checkbox-group label {
   display: block;
   transform: scale(0.8);
-  margin: 10px 0;
+  margin: 10px 5;
   font-size: 14px;
 }
 
