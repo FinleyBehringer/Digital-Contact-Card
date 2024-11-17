@@ -235,13 +235,13 @@ input, textarea, button {
   padding-right: .5rem;
 }
 button {
-  display: inline-block;
   cursor: pointer;
   background-color: #007BFF;
   color: white;
   font-size: 16px;
   height: auto
   border: none;
+  line-height: 1.5;
 }
 button:hover {
   background-color: #0056b3;
