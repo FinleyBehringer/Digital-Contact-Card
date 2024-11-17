@@ -239,6 +239,7 @@ button {
   background-color: #007BFF;
   color: white;
   font-size: 16px;
+  height: auto
   border: none;
 }
 button:hover {
