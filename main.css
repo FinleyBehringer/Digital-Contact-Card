@@ -217,7 +217,7 @@ img.profile-pic {
 }
 .close {
   float: right;
-  font-size: 10px;
+  font-size: 20px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -243,10 +243,13 @@ button:hover {
 }
 .checkbox-group label {
   display: block;
+  transform: scale(0.8);
   margin: 10px 0;
   font-size: 14px;
 }
 
 .checkbox-group input {
-  margin-right: 10px;
+  font-size: 14px; 
+  display: inline-block; 
+  margin-right: 20px; 
 }
