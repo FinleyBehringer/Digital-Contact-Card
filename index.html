@@ -199,6 +199,31 @@
     </div>
   </div>
 
+    <script>
+        // Wait for the DOM to load before accessing elements
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactBtn = document.getElementById('contactBtn');
+            const contactModal = document.getElementById('contactModal');
+            const closeModal = document.getElementById('closeModal');
+
+            // Show modal when button is clicked
+            contactBtn.addEventListener('click', function() {
+                contactModal.style.display = 'block';
+            });
+
+            // Close modal when 'Close' button is clicked
+            closeModal.addEventListener('click', function() {
+                contactModal.style.display = 'none';
+            });
+
+            // Close modal when clicking outside of the modal content
+            window.addEventListener('click', function(event) {
+                if (event.target === contactModal) {
+                    contactModal.style.display = 'none';
+                }
+            });
+        });
+    </script>
 
 
  
